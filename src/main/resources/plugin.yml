@@ -1,0 +1,10 @@
+name: GiveMap
+version: '${project.version}'
+author: jule
+description: 'Simple command to give a player a specified amount of Maps or Item Frames'
+main: zoink.jule.givemap.GiveMap
+api-version: '1.20'
+commands:
+  givemap:
+    description: give item of choice
+    usage: "Usage: /<command> [map|frame] 32"
